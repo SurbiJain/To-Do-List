@@ -1,0 +1,52 @@
+body{
+  font-family: Arial;
+  font-size: 15px;
+}
+.todo-grid,
+.todo-input-grid{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  row-gap: 10px;
+  column-gap: 5px;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+
+}
+.todo-input-grid{
+  align-items: stretch;
+}
+.js-input-Item,
+.js-dueDate{
+  padding: 6px;
+  font-size: 15px;
+}
+.list{
+font-size: large;
+font-weight: bold;
+text-align: center;
+}
+.container{
+  background-color: beige;
+  border: 1px solid brown;
+  margin: auto;
+  width: 50%;
+  height: 500px;
+}
+
+
+.date{
+  font-size: 15px;
+  background-color: rgb(47, 183, 88);
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+.delete{
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  background-color: rgb(214, 15, 15);
+  border: none;
+  padding: 10px;
+}
